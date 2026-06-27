@@ -1,0 +1,23 @@
+# Build artifacts
+build/
+*.o
+*.a
+*.so
+*.gch
+*.out
+
+# nob (bootstrapped from nob.c)
+nob
+nob.old
+
+# Generated output
+output/
+
+# Input data (large binaries, not source)
+data/
+
+# Emacs
+*~
+\#*\#
+.\#*
+TAGS
